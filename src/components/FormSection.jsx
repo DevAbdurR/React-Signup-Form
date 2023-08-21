@@ -104,7 +104,7 @@ function FormSection() {
         </form>
         <p className="terms-text">
           By clicking the button, you are agreeing to our&nbsp;
-          <a href="#" className="terms-link">
+          <a href="nothing" className="terms-link">
             Terms and Services
           </a>
         </p>
