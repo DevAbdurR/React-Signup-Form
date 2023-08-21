@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Manrope", sans-serif;
+  font-family: "Overpass", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  height: 100vh;
+
+  background-image: url(./assets/images/bg-intro-mobile.png);
+  background-color: hsl(0, 100%, 74%);
+}
+
+.app {
+  max-width: 1024px;
+}
+
+/* Universal Classes */
+
+.text-white {
+  color: white;
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* TextSection Component Styling */
+
+.text-container {
+  text-align: center;
+}
+
+.paragraph {
+  margin-top: 20px;
+}
+
+/* FormSection Component Styling */
+
+.section-container {
+  margin-top: 50px;
+}
+
+.trial-btn {
+  background-color: hsl(248, 32%, 49%);
+  width: 100%;
+  border: none;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 1.5em;
+}
+
+.form-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.2);
+}
+
+.form-container input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  outline: none;
+}
+
+.error {
+  color: red;
+  text-align: right;
+  margin-top: -10px;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: hsl(154, 59%, 51%);
+  border: none;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.terms-text {
+  margin-top: 10px;
+  font-size: 10px;
+  color: gray;
+  text-align: center;
+  line-height: 2em;
+}
+
+.terms-link {
+  text-decoration: none;
+  color: hsl(0, 100%, 60%);
+}
+
+/* Media Queries */
+
+@media only screen and (min-width: 1024px) {
+  .app {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-container {
+    text-align: left;
+    flex-basis: 100%;
+    margin-right: 20px;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+    line-height: 1.1em;
+  }
+
+  .paragraph {
+    font-size: 1rem;
+  }
+
+  .section-container {
+    margin-top: 0;
+    flex-basis: 100%;
+  }
+
+  .form-container {
+    padding: 30px;
+  }
+
+  .form-container input {
+    margin-bottom: 15px;
+  }
+}
