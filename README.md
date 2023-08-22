@@ -2,7 +2,7 @@
 
 This project presents a React Signup Form with validation for first name, last name, email, and password. It allows users to enter their information and returns an object with the entered data upon successful submission.
 
-![image](https://github.com/DevAbdurR/React-Signup-Form/assets/112758727/15200c8b-60bd-4dc2-a9a3-2386edc677a8) ![image](https://github.com/DevAbdurR/React-Signup-Form/assets/112758727/89a791cc-8748-4ace-af2e-51103073edd5)
+![image](https://github.com/DevAbdurR/React-Signup-Form/assets/112758727/15200c8b-60bd-4dc2-a9a3-2386edc677a8) 
 
 
 
